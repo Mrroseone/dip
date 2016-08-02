@@ -1,0 +1,150 @@
+    <head>
+  <title>digital-innovation-playbook</title>
+  <link href='fonts.googleapis.com/css?family=Work+Sans:300,500,700,900,400' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+  {{> header}}
+  {{> book}}
+  {{> board}}
+  {{> content}}
+  {{> darkhorse}}
+</body>
+
+
+<template name="header">
+    <div class="pusher">
+        <div class="ui inverted vertical masthead center aligned segment">
+
+            <div class="ui container">
+                <div class="ui top fixed large secondary pointing menu">
+                    <a class="toc item">
+                        <i class="sidebar icon"></i>
+                    </a>
+                    <a class="active item">Das Buch</a>
+                    <a class="item">Das Board</a>
+                    <a class="item">Die Autoren</a>
+                                    {{> loginButtons}}
+
+                    <div class="right item">
+                    <a class="ui tiny inverted red button">LOG IN</a> 
+                    <div class="ui medium icon button primary top-btn"><i class="left book icon"></i> BUCH KAUFEN</div>
+
+                        <!-- <a class="ui inverted button">Log in</a>
+                        <a class="ui inverted button">Sign Up</a> -->
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="ui text container">
+
+                <img class="ui centered huge image" src="/images/dip_logo_2.png">
+                
+                <h2 class="light narrow-bottom">Das unverzichtbare Arbeitsbuch für Gründer, Macher und Manager.</h2>
+                <h3 class="light narrow-top ">Melde dich kostenlos an und bekomme Zugriff auf über 50 Templates oder lade direkt das Innovations Board herunter.</h3>
+
+            
+                <div class="ui basic large icon button red"><i class="left sign in icon"></i> ANMELDEN FÜR ALLE TEMPLATES</div>
+                <div class="ui basic large icon button primary" type="submit"><i class="left light download icon"></i> BOARD DIREKT DOWNLOADEN</div>
+
+            </div>
+
+        </div>
+    </div>
+</template>
+
+<template name="book">
+    <br> <br>
+   <div class="ui three column centered divided grid">
+   <div class="row">
+ 
+  <div class="six wide column"><img class="ui medium centered image" src="/images/dip-cover.jpg"></div>
+   <div class="eight column">
+       <h2 class="book-left">Mit dem Digital Innovation Playbook wird die Entwicklung neuer Produkte und Services so spielerisch einfach und erfolgreich wie nie zuvor.</h2>
+       <p class="book-left">Mit seinem einmaligen Framework sowie vielen Tools und Methoden ermöglicht es erfolgreiche digitale Innovationsentwicklung – immer und überall.</p><p class="book-left"> Über den gesamten Verlauf der Innovationsentwicklung zeigt es die jeweils besten taktischen Spielzüge für jede Aufgabe und Situation. In einer Weiterentwicklung des Design Thinking orientiert es sich dabei konsequent an der Praxis.</p>
+    <div class="ui small icon button primary left floated"><i class="left book icon"></i> BUCH KAUFEN</div>
+
+   </div>
+ </div>
+</div>
+</template>
+
+<template name="board">
+<div class="ui inverted vertical masthead center aligned segment blue">
+                <br> <br>
+   <div class="ui container inner">             
+        <div class="ui grid">
+                <div class="six wide column">
+                   <h2 class="book-left">Das Innovation Board</h2>
+                   <p class="book-left"> Mit dem Innovation Board erhalten Innovationsteams und Manager ein Kommunikationsinstrument, das Missverständnisse ausschließt. Es definiert klare Ergebnisschritte und bietet einheitliche Übergabeformate. Das Innovation Board garantiert jederzeit Überblick und Struktur in der Innovationsentwicklung.</p>
+                
+                    <div class="ui small icon button red left floated"><i class="left book icon"></i> BOARD DOWNLOADEN
+                    </div>
+                </div>
+                <div class="ten wide column"><img class="ui huge centered image" src="/images/dip-board.jpg" data-action="zoom">
+                </div>
+
+        </div>
+    </div>
+
+</div>
+
+    </template>
+
+<template name="content">
+    <div class="ui three column grid">
+  <div class="column">
+    <div class="ui segment">
+      <img class="ui centered small image" src="/images/icon-intermediate.svg">
+      <h3 class="content-centered">Mehr als 40 Mehoden</h3>
+      <p class="content-centered">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="ui segment">
+      <img class="ui centered small image" src="/images/icon-meteor-deep.svg">
+      <h3 class="content-centered">Verschiedene Perspektiven</h3>
+      <p class="content-centered">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="ui segment">
+      <img class="ui centered small image" src="/images/icon-todoapp.svg">
+      <h3 class="content-centered">Übergabe Framework</h3>
+      <p class="content-centered">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+    </div>
+  </div>
+</div>
+</template>
+
+<template name="darkhorse">
+    <div class="ui inverted vertical masthead center aligned segment red">
+                <br> <br>
+   <div class="ui container inner">             
+        <div class="ui grid">
+
+                <div class="ten wide column"><img class="ui huge centered image" src="/images/dark_horse_people.jpg" data-action="zoom">
+                </div>
+
+                <div class="six wide column">
+                   <h2 class="book-left">Die Authoren</h2>
+                   <p class="book-left"> Dark Horse Innnovation sind 30 junge, gleichberechtigte Gründer aus 25 Disziplinen, die sich vor wenigen Jahren mit einer Innovationsberatung selbstständig gemacht haben. </p> <p class="book-left"> Heute sind sie eine der erfolgreichsten Innovationsschmieden unserer Zeit. Vom NGO bis zum DAX-Konzern beraten sie eine Vielzahl von Organisationen. </p> <p class="book-left"> Mit ihrem selbst entwickelten Framework, dem Innovation Board, entwickeln sie Produkt- und Serviceinnovationen, die ihre Kunden begeistern. Sie tun dies gemeinsam im Team, ohne Hierarchien, spielerisch, mit viel Spaß und großer Leidenschaft.</p>
+                
+                    <div class="ui basic small icon button inverted left floated"><i class="left book icon"></i> WWW.THEDARKHORSE.DE
+                    </div>
+                </div>
+                
+
+        </div>
+    </div>
+
+</div>
+</template>
+
+<template name="footer">
+    <button>Click Me</button>
+    <p>You've pressed the button {{counter}} times.</p>
+</template>
